@@ -1,0 +1,16 @@
+export enum FRIENDSHIP_STATUS {
+    PENDING = "PENDING",
+    ACCEPTED = "ACCEPTED",
+    REMOVED = "REMOVED"
+}
+
+export enum FRIENDREQUEST_STATUS {
+    NONE = "NONE",
+    TARGET = "TARGET",
+    REQUEST = "REQUEST"
+}
+
+export enum FRIENDSHIP_LIMIT {
+    MAX_FRIEND = 1000,
+    MAX_FRIEND_REQUEST = 1500,
+}
